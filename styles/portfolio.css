@@ -44,7 +44,7 @@ nav {
 }
 
 .orange {
-    color: #FD6E0A
+    color: #FD6E0A;
 }
 
 nav>ul {
@@ -107,11 +107,21 @@ nav a {
 }
 
 /* Main section styles */
-
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
 /* about sectin styles */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container{
+    justify-content: space-around;
+    display: flex;
+}
+.about-info{
+    text-align: center;
 }
